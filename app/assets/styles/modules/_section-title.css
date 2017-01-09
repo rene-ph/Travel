@@ -4,6 +4,23 @@
   text-align: center;
 
   &__icon {
-      margin-right: 0.6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.6rem;
+
+    @mixin atSmall {
+      position: relative;
+      top: 8px;
+      margin-left: 0;
+      margin-right: 0.5rem;
+      margin-bottom: 0;
+      display: inline-block;
+    }
   }
+
+  &--blue {
+    color: $mainBlue;
+  }
+
 }
