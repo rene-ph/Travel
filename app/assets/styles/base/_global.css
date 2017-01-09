@@ -11,3 +11,11 @@ img {
 * {
   box-sizing: border-box;
 }
+
+a {
+  color: $mainOrange;
+}
+
+p {
+  font-weight: normal;
+}
