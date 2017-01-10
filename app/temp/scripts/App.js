@@ -10845,7 +10845,8 @@
 	            var matchingHeaderLink = currentPageSection.getAttribute("data-matching-link");
 	            that.headerLinks.removeClass("is-current-link");
 	            (0, _jquery2.default)(matchingHeaderLink).addClass("is-current-link");
-	          }
+	          },
+	          offset: '10%'
 	        });
 	      });
 	    }

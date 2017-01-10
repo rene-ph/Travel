@@ -41,7 +41,8 @@ class StickyHeader {
           var matchingHeaderLink = currentPageSection.getAttribute("data-matching-link");
           that.headerLinks.removeClass("is-current-link");
           $(matchingHeaderLink).addClass("is-current-link");
-        }
+        },
+        offset: '10%'
       });
     })
   }
