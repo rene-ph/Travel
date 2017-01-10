@@ -1,3 +1,9 @@
+/**
+ * @Summary
+ * Watch the elements if there is a change in the css or javascript
+ **
+ */
+
 var gulp = require('gulp'),
 watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();

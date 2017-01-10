@@ -1,3 +1,7 @@
+/**
+ * @Summary
+ * Added the webpack extension to unify javascripts (webpack)
+ */
 var gulp = require('gulp'),
 webpack = require('webpack');
 

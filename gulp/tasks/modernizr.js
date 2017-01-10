@@ -1,4 +1,5 @@
 /**
+ * @Summary
  * The way it works is if you have a css class with the name of flexbox
  *  .flexbox .some-other-name { }
  * it will detect the CLASS NAME but it doesnt mean in reality if it has a property or not inside the whole CSS.

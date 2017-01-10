@@ -1,3 +1,14 @@
+/**
+ * @Summary
+ * Added support postCSS with:
+ ** vendor css naming convention (autoprefixer)
+ ** variables  (postcss-simple-vars')
+ ** nesting elements like SASS (postcss-nested)
+ ** using @import (postcss-import)
+ ** mixin support (postcss-mixins)
+ ** convert hex to rgb color (postcss-hexrgba)
+ ** 
+ */
 var gulp = require('gulp'),
 postcss = require('gulp-postcss'),
 autoprefixer = require('autoprefixer'),
