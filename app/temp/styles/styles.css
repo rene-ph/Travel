@@ -1214,3 +1214,29 @@ p {
           transform: translate(-50%, -50%);
 }
 
+.navigate-top {
+  visibility: visible;
+  display:block;
+  padding-left: 50%;
+
+}
+
+.navigate-top__arrow {
+  display: inline-block;
+  padding-left: 5%;
+}
+
+.navigate-top__text {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+}
+
+@media (min-width: 800px) {
+
+  .navigate-top {
+    visibility: hidden;
+    display: none;
+  }
+}
+
